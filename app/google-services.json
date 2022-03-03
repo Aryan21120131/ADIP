@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730162385875",
+    "project_id": "adip-82585",
+    "storage_bucket": "adip-82585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730162385875:android:13f209987d412a96875526",
+        "android_client_info": {
+          "package_name": "com.example.adip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730162385875-bobi50j6qo11iv9r58ebv4r8s1uo2c03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG6680IMSe4ZRcar36fahQgq3fcnmpi18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730162385875-bobi50j6qo11iv9r58ebv4r8s1uo2c03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

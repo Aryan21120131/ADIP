@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ADIP</string>
+    <string name="a_handicapped_person_who_satisfies_the_below_following_criteria_would_be_eligible_for_assistance_under_adip_scheme">A handicapped person who satisfies the below following Criteria would be eligible for assistance under ADIP Scheme:</string>
+    <string name="eligibility_criteria">Eligibility Criteria</string>
+    <string name="todo">TODO</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="must_be_a_citizen_of_india_under_any_age_group">Must be a citizen of India under any age group</string>
+    <string name="applicant_must_hold_a_copy_of_disability_certificate_with_40">Applicant must hold a copy of Disability Certificate with 40%</string>
+    <string name="applicant_s_monthly_income_from_all_sources_must_not_exceed_the_value_of_rs_20_000_per_month">Applicant’s monthly income from all sources must not exceed the value of Rs. 20,000/- per month.</string>
+    <string name="in_the_case_of_dependents_the_income_of_parents_or_guardians_must_not_exceed_the_value_of_rs_20_000_per_month">In the case of dependents, the income of parents or guardians must not exceed the value of Rs. 20,000/- per month.</string>
+    <string name="those_who_are_not_receiving_any_assistance_from_the_government_and_non_official_organisations_for_the_past_three_years_for_the_same_object_from_any_source_are_eligible_to_apply_for_this_scheme_however_for_the_children_under_12_years_of_age_group_the_limit_would_be_restricted_for_one_year">Those who are not receiving any assistance from the Government and Non-Official Organisations for the past three years for the same object from any source are eligible to apply for this scheme. However, for the children under 12 years of age group, the limit would be restricted for one year.</string>
+    <string name="continueText">CONTINUE</string>
+    <string name="download_pdf">DOWNLOAD PDF</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="name">your name</string>
+    <string name="gender">Gender</string>
+    <string name="age">your age</string>
+    <string name="state">STATE</string>
+    <string name="city">CITY</string>
+    <string name="address">ADDRESS</string>
+    <string name="postal_code">Postal code</string>
+    <string name="next">NEXT</string>
+    <string name="passport_size_photo">Passport Size Photo</string>
+    <string name="disability_certificate">Disability Certificate</string>
+    <string name="income_certificate">Income Certificate</string>
+    <string name="identity_proof">Identity Proof</string>
+    <string name="address_proof">Address Proof</string>
+    <string name="save">SAVE</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="english">ENGLISH</string>
+</resources>

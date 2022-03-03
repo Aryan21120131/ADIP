@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ADIP</string>
+    <string name="a_handicapped_person_who_satisfies_the_below_following_criteria_would_be_eligible_for_assistance_under_adip_scheme">एक विकलांग व्यक्ति जो नीचे दिए गए मानदंडों को पूरा करता है, वह आदिप योजना के तहत सहायता के लिए पात्र होगा:</string>
+    <string name="eligibility_criteria">पात्रता मापदंड</string>
+    <string name="todo">ऐसा करने के लिए</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="must_be_a_citizen_of_india_under_any_age_group">किसी भी आयु वर्ग के अंतर्गत भारत का नागरिक होना चाहिए</string>
+    <string name="applicant_must_hold_a_copy_of_disability_certificate_with_40">आवेदक के पास 40% के साथ विकलांगता प्रमाण पत्र की एक प्रति होनी चाहिए</string>
+    <string name="applicant_s_monthly_income_from_all_sources_must_not_exceed_the_value_of_rs_20_000_per_month">सभी स्रोतों से आवेदक की मासिक आय रुपये के मूल्य से अधिक नहीं होनी चाहिए। 20,000/- प्रति माह।</string>
+    <string name="in_the_case_of_dependents_the_income_of_parents_or_guardians_must_not_exceed_the_value_of_rs_20_000_per_month">आश्रितों के मामले में, माता-पिता या अभिभावकों की आय रुपये के मूल्य से अधिक नहीं होनी चाहिए। 20,000/- प्रति माह।</string>
+    <string name="those_who_are_not_receiving_any_assistance_from_the_government_and_non_official_organisations_for_the_past_three_years_for_the_same_object_from_any_source_are_eligible_to_apply_for_this_scheme_however_for_the_children_under_12_years_of_age_group_the_limit_would_be_restricted_for_one_year">जो लोग पिछले तीन वर्षों से किसी भी स्रोत से एक ही उद्देश्य के लिए सरकारी और गैर-सरकारी संगठनों से कोई सहायता प्राप्त नहीं कर रहे हैं, वे इस योजना के लिए आवेदन करने के पात्र हैं। हालांकि, 12 साल से कम उम्र के बच्चों के लिए यह सीमा एक साल तक सीमित रहेगी।</string>
+    <string name="continueText">जारी रखें</string>
+    <string name="download_pdf">डाउनलोड पीडीऍफ़</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="name">नाम</string>
+    <string name="gender">लिंग</string>
+    <string name="age">उम्र</string>
+    <string name="state">राज्य</string>
+    <string name="city">शहर</string>
+    <string name="address">पता</string>
+    <string name="postal_code">डाक कोड</string>
+    <string name="next">अगला</string>
+    <string name="passport_size_photo">पासपोर्ट साइज फोटो</string>
+    <string name="disability_certificate">विकलांगता प्रमाण पत्र</string>
+    <string name="income_certificate">आय प्रमाण पत्र</string>
+    <string name="identity_proof">पहचान प्रमाण</string>
+    <string name="address_proof">निवास प्रमाण पत्र</string>
+    <string name="save">सहेजें</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="english">ENGLISH</string>
+</resources>

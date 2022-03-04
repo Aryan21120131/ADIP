@@ -28,40 +28,25 @@ public class DisablityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_disablity);
         hook();
-        Hearing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                disabilities+="\tHearing";
-                Hearing.setAlpha(0.9f);
-            }
+        Hearing.setOnClickListener(view -> {
+            disabilities+="\tHearing";
+            Hearing.setAlpha(0.9f);
         });
-        Vision.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                disabilities+="\tVision";
-                Vision.setAlpha(0.9f);
-            }
+        Vision.setOnClickListener(view -> {
+            disabilities+="\tVision";
+            Vision.setAlpha(0.9f);
         });
-        Mental.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                disabilities+="\tMental";
-                Mental.setAlpha(0.9f);
-            }
+        Mental.setOnClickListener(view -> {
+            disabilities+="\tMental";
+            Mental.setAlpha(0.9f);
         });
-        Locomotor.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                disabilities+="\tLocomotor";
-                Locomotor.setAlpha(0.9f);
-            }
+        Locomotor.setOnClickListener(view -> {
+            disabilities+="\tLocomotor";
+            Locomotor.setAlpha(0.9f);
         });
-        DisabilityNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                HomePage.userHome.setDisabilities(disabilities);
-                startActivity(new Intent(DisablityActivity.this,Eligibility.class));
-            }
+        DisabilityNext.setOnClickListener(view -> {
+            HomePage.userHome.setDisabilities(disabilities);
+            startActivity(new Intent(DisablityActivity.this,Eligibility.class));
         });
     }
 

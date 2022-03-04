@@ -48,9 +48,11 @@ public class RegisterPage3 extends AppCompatActivity {
     ImageView PassportSizePhoto,DisabilityCertificate,IncomeCertificate,IdentityProof,AddressProof;
 
     int SelectedPicture=200;
+
     Uri[] images=new Uri[5];
     int i;
     ImageView temp;
+
     String PassportSizePhotoImage,DisabilityCertificateImage,IncomeCertificateImage,IdentityProofImage,AddressProofImage;
 
     FirebaseStorage storage;
@@ -101,7 +103,6 @@ public class RegisterPage3 extends AppCompatActivity {
                 AddressProofImage.isEmpty()){
             Toast.makeText(RegisterPage3.this, "ALL FIELDS REQUIRED !!!", Toast.LENGTH_SHORT).show();
         }else {
-//            RegisterPage1.user.setPassportSizePhoto(images[0]);
             HomePage.userHome.setPassportSizePhotoImage(PassportSizePhotoImage);
             HomePage.userHome.setDisabilityCertificateImage(DisabilityCertificateImage);
             HomePage.userHome.setIncomeCertificateImage(IncomeCertificateImage);
@@ -164,11 +165,10 @@ public class RegisterPage3 extends AppCompatActivity {
     }
 
     public String getEncoded64ImageStringFromBitmap(Bitmap bitmap) {
-//        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-//        bitmap.compress(Bitmap.CompressFormat.JPEG, 10, stream);
-//        byte[] byteFormat = stream.toByteArray();
-//         get the base 64 string
-//        X--------X
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 10, stream);
+        byte[] byteFormat = stream.toByteArray();
+
 //        RequestBody requestBody=RequestBody.create(byteFormat);
 //        MultipartBody.Part part=MultipartBody.Part.createFormData("Passport Image","",requestBody);
 //        RequestBody someData=RequestBody.create(MediaType.parse("text/plain"),"This is a new IMG");
@@ -184,9 +184,8 @@ public class RegisterPage3 extends AppCompatActivity {
 //
 //            }
 //        });
-//        X--------X
-//        String imgString = Base64.encodeToString(byteFormat, Base64.NO_WRAP);
-        return "";
+        String imgString = Base64.encodeToString(byteFormat, Base64.NO_WRAP);
+        return imgString;
     }
 
     private void hook() {
@@ -200,8 +199,7 @@ public class RegisterPage3 extends AppCompatActivity {
 
     private void Upload(Uri img,String s){
     if (img != null) {
-        StorageReference ref
-                = storageReference.child("images/"+ s);
+        StorageReference ref = storageReference.child("images/"+ s);
         ref.putFile(img)
                 .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                             @Override

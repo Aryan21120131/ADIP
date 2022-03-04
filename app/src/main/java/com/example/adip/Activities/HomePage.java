@@ -44,6 +44,7 @@ import java.io.FileOutputStream;
 import java.sql.Time;
 import java.time.LocalTime;
 import java.util.List;
+import java.util.Optional;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -64,7 +65,6 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         hook();
         ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
-//        PasportSizePhotoHome.setImageURI(userHome.getPassportSizePhotos());
 
         for(int i=0;i<5;i++){
             switch (i){
@@ -113,7 +113,8 @@ public class HomePage extends AppCompatActivity {
 //        }catch (Exception e){
 //            Toast.makeText(HomePage.this, "Failed!!!", Toast.LENGTH_SHORT).show();
 //        }
-        NameHome.setText(userHome.getPhoneNumber()+s);
+//        NameHome.setText(userHome.getPhoneNumber()+s);
+        NameHome.setText(reference.getDownloadUrl().toString());
         Glide.with(HomePage.this ).load(reference).into(img);
     }
 
@@ -188,16 +189,16 @@ public class HomePage extends AppCompatActivity {
     }
 
     private void decode64(String sImage) {
-//        try {
-////            Toast.makeText(HomePage.this, ""+sImage, Toast.LENGTH_SHORT).show();
-////            byte[] bytes = Base64.decode(sImage, Base64.DEFAULT);
-////            // Initialize bitmap
-////            Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
-////            // set bitmap on imageView
-////            imageView.setImageBitmap(bitmap);
-//        }catch (Exception e){
-//            Toast.makeText(HomePage.this, ""+e, Toast.LENGTH_SHORT).show();
-//        }
+        try {
+//            Toast.makeText(HomePage.this, ""+sImage, Toast.LENGTH_SHORT).show();
+//            byte[] bytes = Base64.decode(sImage, Base64.DEFAULT);
+//            // Initialize bitmap
+//            Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+//            // set bitmap on imageView
+//            imageView.setImageBitmap(bitmap);
+        }catch (Exception e){
+            Toast.makeText(HomePage.this, ""+e, Toast.LENGTH_SHORT).show();
+        }
     }
 
 

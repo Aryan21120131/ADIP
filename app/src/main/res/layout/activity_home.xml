@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clr1"
+    tools:context=".Activities.HOME">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/clr4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/logo"
+                android:backgroundTintMode="multiply"
+                tools:srcCompat="@drawable/logo" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:id="@+id/HomeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/gender"
+                android:textColor="@color/clr5"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/GenderHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/male_icon" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/HomePhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/HomeAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/HomeState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/state"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/HomeCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/HomeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/HomePostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/postal_code"
+            android:textColor="@color/clr5"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/HomeDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back1"
+            android:text="@string/download_pdf"
+            android:textColor="@color/clr3"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

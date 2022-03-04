@@ -24,7 +24,6 @@ public class RegisterPage1 extends AppCompatActivity {
     EditText UserAddress,UserState,UserCity;
     PinView UserPostalCode,userPasswordRegister;
 
-
     String gender="MALE";
 
     @Override

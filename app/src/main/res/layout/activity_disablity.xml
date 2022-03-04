@@ -62,7 +62,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:alpha="1"
+                android:alpha="0.3"
                 android:background="@drawable/dumb" />
 
             <TextView
@@ -82,7 +82,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:alpha="1"
+                android:alpha="0.3"
                 android:background="@drawable/mental" />
 
             <TextView
@@ -109,7 +109,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:alpha="1"
+                android:alpha="0.3"
                 android:background="@drawable/low_vision" />
 
             <TextView
@@ -129,7 +129,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:alpha="1"
+                android:alpha="0.3"
                 android:background="@drawable/quadroplegia" />
 
             <TextView
